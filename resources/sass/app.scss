@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.titulo {
+    border-bottom: 2px solid #2B3256;
+}
+
+div.informacion {
+    b {
+        display: block;
+        span {
+            font-weight: 400;
+        }
+    }
+}
+
+div.expiracion {
+    input {
+        width: 30%;
+        display: inline;
+    }
+}
